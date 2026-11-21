@@ -1,0 +1,12 @@
+[pretask] [连接] 候选 emulator-5562 (BVL-AN00) → 无 crosscore，跳过
+[pretask] [连接] 候选 emulator-5564 (V2203A) → 无 crosscore，跳过
+[pretask] [连接] android_id=42a4afac4545319f 有 2 个入口 ['127.0.0.1:16448', 'emulator-5558']，视为同一台，选 127.0.0.1:16448
+[pretask] [连接] 已连接 MuMu安卓设备-2 (index 2) 127.0.0.1:16448
+serial: 127.0.0.1:16448
+orientation: 1
+raw screencap bytes: 8294416
+frame stats: {"w": 1920, "h": 1080, "fill": 0.9965301890432099, "bbox_w": 1916, "bbox_h": 1080}
+aspect: 1.7778
+judge with EXPECTED = (1280, 720) -> {"ok": false, "reason": "分辨率不符：期望 1280×720 横屏（tablet.3），当前渲染面 1920×1080", "w": 1920, "h": 1080}
+judge with EXPECTED = (1920, 1080) -> {"ok": true, "w": 1920, "h": 1080, "fill": 0.9965, "bbox_w": 1916, "bbox_h": 1080}
+judge with EXPECTED(transposed) = (1080, 1920) -> {"ok": false, "reason": "分辨率不符：期望 1080×1920 横屏（tablet.3），当前渲染面 1920×1080", "w": 1920, "h": 1080}

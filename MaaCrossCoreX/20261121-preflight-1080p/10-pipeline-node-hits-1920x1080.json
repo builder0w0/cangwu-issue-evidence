@@ -1,0 +1,54 @@
+[
+  {
+    "node": "通用_主界面_出击",
+    "pipeline_threshold": 0.7,
+    "hit": true,
+    "score": 0.869132,
+    "box": [
+      1117,
+      593,
+      131,
+      63
+    ],
+    "reco_name": "vv_通用_主界面_出击"
+  },
+  {
+    "node": "通用_主界面_邮箱",
+    "pipeline_threshold": 0.7,
+    "hit": true,
+    "score": 0.995593,
+    "box": [
+      1058,
+      26,
+      38,
+      30
+    ],
+    "reco_name": "vv_通用_主界面_邮箱"
+  },
+  {
+    "node": "香川大典_主界面入口",
+    "pipeline_threshold": 0.8,
+    "hit": true,
+    "score": 0.949192,
+    "box": [
+      1078,
+      455,
+      156,
+      64
+    ],
+    "reco_name": "vv_香川大典_主界面入口"
+  },
+  {
+    "node": "领奖_进邮件",
+    "pipeline_threshold": 0.7,
+    "hit": true,
+    "score": 0.995593,
+    "box": [
+      1058,
+      26,
+      38,
+      30
+    ],
+    "reco_name": "vv_领奖_进邮件"
+  }
+]
