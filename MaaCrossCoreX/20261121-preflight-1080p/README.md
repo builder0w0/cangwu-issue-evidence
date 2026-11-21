@@ -62,4 +62,5 @@ README.md:45 写「模拟器建议使用 `16:9` 分辨率，例如 `1920×1080`�
 | `8-judge-frame-contrast.txt` | `judge_frame()` 同一帧三种期望值对照 |
 | `9-pipeline-node-hits-1920x1080.txt` / `10-*.json` | 生产节点识别结果 |
 | `11-maa-dll-sha256.txt` | 两份 MaaFramework.dll 的 sha256 |
+| `12-maafw-log-20261121.zip` | `debug/maafw.log` 原样打包：11:17:38 壳启动的那次 MAA 会话，以及 11:44 起的只读探针会话（探针用全截图方式，故含 minicap 回退告警） |
 | `verify_judge.py` / `match_real_nodes.py` / `grab_evidence_frames.py` | 上述取证脚本（只读，`action` 一律覆盖为 DoNothing） |
